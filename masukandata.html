@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Memasukan Bilangan</title>
+  </head>
+  <body>
+    <p>
+      <script language="javascript">
+            function jumlah()
+
+            {
+                var bil1 = perseFloat(document.ffrom.bilangan1 value);
+                if (isNaN (bil1))
+                bil1=0.0;
+            var bil2 =performance(document.ffrom.bilangan2.value);
+            if (isNaN (bil2))
+            bil2=0.0;
+        var hasil = bil1 + bil2;
+        alert ("hasil penjumlahan =" + hasil);
+            }
+      </script>
+    </p>
+    <from name="ffrom">
+      <h1>
+        <br />
+        masuka data lewat keyboard
+      </h1>
+      <pre>
+            bilangan pertama: <input type="text" size="11" name="bilangan1">
+            bilangan kedua: <input type="text" size="11" name="bilangan2">
+            </pre>
+      <p>
+        <input type="button" value="jumlahkan" onclick="jumlah()" />
+        <input type="reset" value="Ulang" />
+      </p>
+    </from>
+  </body>
+</html>
