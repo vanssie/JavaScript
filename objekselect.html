@@ -1,0 +1,29 @@
+<html>
+    <head><title>latihan dengan objek select</title></head>
+    <body>
+        <script languange="javascript">
+            function tekan()
+            {
+                var jurusanstr =(document.ffrom.jurusan.value);
+                document.ffrom.ojurusan.value =jurusanstr;
+            }
+        </script>
+        <from name="fform">
+            <h1>penggunaan objek select</h1><hr>
+            <h3>Memasukan :</h3>
+            jurusan di unicom :<select name="jurusan" size="1">
+                <option value="teknik informatika">teknik informatika</option>
+                <option value="teknik komputer">teknik komputer</option>
+                <option value="teknik industri">teknik industri</option>
+                <option value="teknik elektro">teknik elektro</option>
+                <option value="teknik sipil">teknik sipil</option>
+                <option value="teknik arsitektur">teknik arsitektur</option>
+                <option value="teknik perencanaan eil.kota">teknik perencanaan wil.kota</option>
+            </select>
+            <p> <input type="button" value="kirim" onclick="tekan()">
+            <input type="reset" value="ulang"</p>
+            <h3> output jurusan :</h3>
+            <input type="texs" name="ojurusan" size="30"
+        </from>
+    </body>
+</html>

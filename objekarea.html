@@ -1,0 +1,22 @@
+<html>
+    <head><title>latihan dengan objek teks area</title></head>
+    <body>
+        <script languange="javascript">
+            function()
+            {
+                var ketstr = (document.ffrom.ket.value);
+                document.ffrom.oket.value =ketstr;
+            }
+        </script>
+        <form name="fform">
+            <h1>Memasukan data dengan objek teksarea</h1><hr>
+            <h3>keterangan:</h3><br>
+            <textarea name="ket" rows="3" cols="30"></textarea>
+            <br><br>
+            <input type="button" value="kirim" onclick="tekan()">
+            <input type="reset" value="ulang">
+            <h3>output keterangan :</h3>
+            <textarea name="oket" rows="3" cols="30"></textarea>
+        </form>
+    </body>
+</html>
